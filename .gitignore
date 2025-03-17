@@ -52,3 +52,39 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Node.js
+node_modules/
+out/
+
+# Roslyn
+.roslyn/
+.roslynDevKit/
+
+# Omnisharp
+.omnisharp/
+.omnisharp-*/
+
+# Visual Studio
+.vs/
+.debugger/
+.razor/
+.razoromnisharp/
+.razortelemetry/
+.razorDevKit/
+
+# VS Code
+.vscode-test/
+
+# MSBuild
+msbuild/signing/signJs/*.log
+msbuild/signing/signVsix/*.log
+
+# Distribution
+dist/
+*.razor.json
+
+# Installers
+install.*
+\.DS_Store
+vsix/
